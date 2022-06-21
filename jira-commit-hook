@@ -1,5 +1,5 @@
 #!/bin/bash
-CLIENTHOOKURL="hook-url"
+CLIENTHOOKURL="https://raw.githubusercontent.com/kaleyra/utils/main/jira-commit-hook"
 read -p "Enter Your Local Git Workspace Path : " GIT_CHECKOUT_PATH
 GITWORKINGDIR=$(realpath ${GIT_CHECKOUT_PATH})
 read -p "Enter Your  Jira Project Key : " X
